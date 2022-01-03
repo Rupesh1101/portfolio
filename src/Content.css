@@ -1,0 +1,69 @@
+.home--content {
+  display: flex;
+  text-align: center;
+  padding: 2% 2%;
+  margin-top: 12%;
+  overflow: -moz-hidden-unscrollable;
+}
+
+.home--para {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 460px) {
+  .home--para {
+    font-size: 1.2rem;
+  }
+}
+
+/* --about-- */
+
+.about--container {
+  /* margin-top: 3%; */
+  padding: 3% 3%;
+}
+
+.about--content {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  overflow: -moz-hidden-unscrollable;
+}
+
+/* -- contact -- */
+.contact--container {
+  padding: 3% 3%;
+}
+
+.contact--content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 13%;
+}
+
+/* -- skills -- */
+
+.skills--container {
+  padding: 3% 3%;
+}
+
+.skills--programming {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.language {
+  display: flex;
+  font-size: 1.4rem;
+}
+
+/* --experience-- */
+
+.experience--container {
+  padding: 3% 3%;
+}
+
+/* --projects-- */
+.projects--container {
+  padding: 3% 3%;
+}
